@@ -1,0 +1,61 @@
+.navbar a{
+text-decoration: none;
+padding: 11px;
+color: #826D4E;
+font-size:1.5em;
+}
+.navbar{
+    width: 100%;
+    background-color: #826221;
+    overflow: hidden;
+    float: left;
+    
+}
+.navbar a:hover{
+background-color: #C4DBE0;
+
+}
+.active{
+    background-color: #6D553E
+}
+body{
+    background-color:#D3B340;
+}
+@media screen and (max-width:500px) {
+.navbar a{
+    
+    display:block;
+    float: none;
+
+
+}
+p{
+font-size:4px;
+}
+
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: #8C756A;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    animation: milos 3s linear infinite;
+
+}
+@keyframes milos{
+0%{
+font-size: medium;
+}
+100%{
+font-size: large;
+}
+}
+p{
+    box-sizing: border-box;
+    padding: 90px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #F8D210;
+}
